@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+  display: flex;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 5px;
+}
+
+/*for odd-even color*/
+tr:nth-child(even) {
+  background-color: gray;
+}
