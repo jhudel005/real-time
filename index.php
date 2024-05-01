@@ -43,6 +43,8 @@ $conn = connection();
                         var html = '<ul>';
                         $.each(data, function(index, item) {
                             html += '<li>' + item.DATE + " " + item.TIME + " " + item.HEIGHT + '</li>'; // Adjust 'column_name' according to your database schema
+                            // console.log(item.DATE);
+                        
                         });
                         html += '</ul>';
                         $('#dataContainer').html(html);
